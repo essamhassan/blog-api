@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-	  mount_uploader :avatar, AvatarUploader
+	mount_uploader :avatar, AvatarUploader
 end
